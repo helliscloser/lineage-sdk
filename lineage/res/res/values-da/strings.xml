@@ -16,15 +16,15 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageos_system_label">crDroid System</string>
+    <string name="lineageos_system_label">AlphaDroid System</string>
     <string name="permlab_modifyProfiles">ændre systemprofiler</string>
     <string name="permdesc_modifyProfiles">Tillader en app at ændre systemprofiler.</string>
     <string name="permlab_useHardwareFramework">brug udstyrs-programmingsplatform</string>
-    <string name="permdesc_useHardwareFramework">Tillader en app adgang til crDroid udstyrs-programmingsplatformen.</string>
-    <string name="permlab_writeSettings">modificere crDroid system-indstillinger</string>
-    <string name="permdesc_writeSettings">Tillader en app at modificere crDroid system-indstillinger.</string>
-    <string name="permlab_writeSecureSettings">modificere crDroid sikre system-indstillinger</string>
-    <string name="permdesc_writeSecureSettings">Tillader en app at modificere crDroid sikre system-indstillinger. Ikke til brug af normale apps.</string>
+    <string name="permdesc_useHardwareFramework">Tillader en app adgang til AlphaDroid udstyrs-programmingsplatformen.</string>
+    <string name="permlab_writeSettings">modificere AlphaDroid system-indstillinger</string>
+    <string name="permdesc_writeSettings">Tillader en app at modificere AlphaDroid system-indstillinger.</string>
+    <string name="permlab_writeSecureSettings">modificere AlphaDroid sikre system-indstillinger</string>
+    <string name="permdesc_writeSecureSettings">Tillader en app at modificere AlphaDroid sikre system-indstillinger. Ikke til brug af normale apps.</string>
     <string name="profileNameDefault">Standard</string>
     <string name="profileNameWork">Arbejde</string>
     <string name="profileNameHome">Hjem</string>
@@ -62,9 +62,9 @@
     <string name="permdesc_manageLiveDisplay">Tillader en app at konfigurere avancerede skærmindstillinger.</string>
     <string name="permlab_manageRemotePrefs">håndtere fjernbetjeningsindstillinger</string>
     <string name="permdesc_manageRemotePrefs">Tillader en app at håndtere fjernbetjeningsindstillinger</string>
-    <string name="lineage_api_level">crDroid API-niveau</string>
-    <string name="lineage_updates">crDroid-opdateringer</string>
-    <string name="lineage_version">crDroid-version</string>
+    <string name="lineage_api_level">AlphaDroid API-niveau</string>
+    <string name="lineage_updates">AlphaDroid-opdateringer</string>
+    <string name="lineage_version">AlphaDroid-version</string>
     <string name="lineage_vendor_security_patch">Producent-sikkerhedsrettelsesniveau</string>
     <string name="unknown">Ukendt</string>
     <string name="app_killed_message">Program stoppet</string>
