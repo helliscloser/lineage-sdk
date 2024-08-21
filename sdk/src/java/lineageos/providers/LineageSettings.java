@@ -1247,10 +1247,32 @@ public final class LineageSettings {
          * (Default can be configured via config_threeFingersSwipeBehavior)
          * (See KEY_THREE_FINGERS_SWIPE_ACTION for valid values)
          */
-        public static final String KEY_THREE_FINGERS_SWIPE_ACTION = "key_three_fingers_swipe_action";
+        public static final String KEY_THREE_FINGERS_SWIPE_ACTION = "three_fingers_swipe";
 
         /** @hide */
         public static final Validator KEY_THREE_FINGERS_SWIPE_ACTION_VALIDATOR =
+                new InclusiveIntegerRangeValidator(0, 17);
+
+        /**
+         * Action to perform when three fingers swipe action is detected.
+         * (Default can be configured via config_threeFingersSwipeBehavior)
+         * (See KEY_THREE_FINGERS_LONG_PRESS_ACTION for valid values)
+         */
+        public static final String KEY_THREE_FINGERS_LONG_PRESS_ACTION = "three_finger_long_press_action";
+
+        /** @hide */
+        public static final Validator KEY_THREE_FINGERS_LONG_PRESS_ACTION_VALIDATOR =
+                new InclusiveIntegerRangeValidator(0, 17);
+
+        /**
+         * Action to perform when three fingers swipe action is detected.
+         * (Default can be configured via config_threeFingersSwipeBehavior)
+         * (See KEY_SHAKE_GESTURE_ACTION for valid values)
+         */
+        public static final String KEY_SHAKE_GESTURE_ACTION = "shake_gestures_action";
+
+        /** @hide */
+        public static final Validator KEY_SHAKE_GESTURE_ACTION_VALIDATOR =
                 new InclusiveIntegerRangeValidator(0, 17);
 
         /**
@@ -2181,6 +2203,8 @@ public final class LineageSettings {
                     KEY_APP_SWITCH_LONG_PRESS_ACTION_VALIDATOR);
             VALIDATORS.put(KEY_EDGE_LONG_SWIPE_ACTION, KEY_EDGE_LONG_SWIPE_ACTION_VALIDATOR);
             VALIDATORS.put(KEY_THREE_FINGERS_SWIPE_ACTION, KEY_THREE_FINGERS_SWIPE_ACTION_VALIDATOR);
+            VALIDATORS.put(KEY_THREE_FINGERS_LONG_PRESS_ACTION, KEY_THREE_FINGERS_LONG_PRESS_ACTION_VALIDATOR);
+            VALIDATORS.put(KEY_SHAKE_GESTURE_ACTION, KEY_SHAKE_GESTURE_ACTION_VALIDATOR);
             VALIDATORS.put(HOME_WAKE_SCREEN, HOME_WAKE_SCREEN_VALIDATOR);
             VALIDATORS.put(ASSIST_WAKE_SCREEN, ASSIST_WAKE_SCREEN_VALIDATOR);
             VALIDATORS.put(APP_SWITCH_WAKE_SCREEN, APP_SWITCH_WAKE_SCREEN_VALIDATOR);
